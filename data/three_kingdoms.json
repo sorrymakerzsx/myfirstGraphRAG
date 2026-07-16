@@ -1,0 +1,1461 @@
+{
+  "entities": {
+    "characters": [
+      {
+        "id": "liubei",
+        "name": "刘备",
+        "type": "character",
+        "description": "字玄德，蜀汉开国皇帝，汉室宗亲。以仁德著称，与关羽、张飞桃园结义，三顾茅庐请诸葛亮出山。",
+        "faction": "蜀汉"
+      },
+      {
+        "id": "guanyu",
+        "name": "关羽",
+        "type": "character",
+        "description": "字云长，五虎上将之首。忠义无双，温酒斩华雄，过五关斩六将，水淹七军，后被东吴吕蒙所擒杀。",
+        "faction": "蜀汉"
+      },
+      {
+        "id": "zhangfei",
+        "name": "张飞",
+        "type": "character",
+        "description": "字翼德，五虎上将之一。勇猛过人，长坂坡一声断喝退曹军。后被部下范疆、张达所害。",
+        "faction": "蜀汉"
+      },
+      {
+        "id": "zhugeliang",
+        "name": "诸葛亮",
+        "type": "character",
+        "description": "字孔明，号卧龙。蜀汉丞相，足智多谋。隆中对定三分天下，赤壁借东风，七擒孟获，六出祁山，病逝五丈原。",
+        "faction": "蜀汉"
+      },
+      {
+        "id": "zhaoyun",
+        "name": "赵云",
+        "type": "character",
+        "description": "字子龙，五虎上将之一。长坂坡七进七出救阿斗，一身是胆。跟随刘备征战一生。",
+        "faction": "蜀汉"
+      },
+      {
+        "id": "machao",
+        "name": "马超",
+        "type": "character",
+        "description": "字孟起，五虎上将之一。西凉马腾之子，为父报仇起兵反曹，后归降刘备。",
+        "faction": "蜀汉"
+      },
+      {
+        "id": "huangzhong",
+        "name": "黄忠",
+        "type": "character",
+        "description": "字汉升，五虎上将之一。老当益壮，定军山斩夏侯渊。原为刘表部下，后属长沙太守韩玄，关羽战长沙时归降刘备。",
+        "faction": "蜀汉"
+      },
+      {
+        "id": "pangtong",
+        "name": "庞统",
+        "type": "character",
+        "description": "字士元，号凤雏。与诸葛亮齐名，辅佐刘备取西川，在落凤坡中箭身亡。",
+        "faction": "蜀汉"
+      },
+      {
+        "id": "jiangwei",
+        "name": "姜维",
+        "type": "character",
+        "description": "字伯约，诸葛亮衣钵传人。本为曹魏天水守将，被诸葛亮收服，后继承北伐遗志，九伐中原。",
+        "faction": "蜀汉"
+      },
+      {
+        "id": "weiyan",
+        "name": "魏延",
+        "type": "character",
+        "description": "字文长，蜀汉大将。原为韩玄部下，杀韩玄后归降刘备。勇猛善战但桀骜不驯，诸葛亮死后被马岱所杀。",
+        "faction": "蜀汉"
+      },
+      {
+        "id": "masu",
+        "name": "马谡",
+        "type": "character",
+        "description": "字幼常，诸葛亮参军。失街亭导致北伐失败，被诸葛亮挥泪斩首。",
+        "faction": "蜀汉"
+      },
+      {
+        "id": "xushu",
+        "name": "徐庶",
+        "type": "character",
+        "description": "字元直，刘备早期谋士。走马荐诸葛，后被曹操以母要挟归曹，终生不献一计。",
+        "faction": "蜀汉"
+      },
+      {
+        "id": "fazheng",
+        "name": "法正",
+        "type": "character",
+        "description": "字孝直，刘备取西川的首席谋士。善出奇谋，定军山献计斩夏侯渊，英年早逝。",
+        "faction": "蜀汉"
+      },
+      {
+        "id": "liushan",
+        "name": "刘禅",
+        "type": "character",
+        "description": "字阿斗，刘备之子。小名阿斗，乐不思蜀，蜀汉末代皇帝，降魏后封安乐公。",
+        "faction": "蜀汉"
+      },
+      {
+        "id": "yanngyan",
+        "name": "严颜",
+        "type": "character",
+        "description": "原为刘璋巴郡太守，老将。被张飞义释后归降，与黄忠齐名的老将。",
+        "faction": "蜀汉"
+      },
+      {
+        "id": "madai",
+        "name": "马岱",
+        "type": "character",
+        "description": "马超从弟，随马超归降刘备。奉诸葛亮遗命斩杀魏延。",
+        "faction": "蜀汉"
+      },
+      {
+        "id": "caocao",
+        "name": "曹操",
+        "type": "character",
+        "description": "字孟德，曹魏奠基人。挟天子以令诸侯，官渡之战大败袁绍，统一北方。治世之能臣，乱世之奸雄。",
+        "faction": "曹魏"
+      },
+      {
+        "id": "xiahoudun",
+        "name": "夏侯惇",
+        "type": "character",
+        "description": "字元让，曹操麾下大将。拔矢啖睛，勇猛刚烈，深得曹操信任。",
+        "faction": "曹魏"
+      },
+      {
+        "id": "xiahouyuan",
+        "name": "夏侯渊",
+        "type": "character",
+        "description": "字妙才，夏侯惇族弟。擅长奔袭，定军山被黄忠所斩。",
+        "faction": "曹魏"
+      },
+      {
+        "id": "xuchu",
+        "name": "许褚",
+        "type": "character",
+        "description": "字仲康，曹操贴身护卫。虎痴之名威震天下，裸衣斗马超，忠勇无双。",
+        "faction": "曹魏"
+      },
+      {
+        "id": "dianwei",
+        "name": "典韦",
+        "type": "character",
+        "description": "曹操贴身护卫。手持双铁戟，宛城之战为掩护曹操撤退，力战而死。",
+        "faction": "曹魏"
+      },
+      {
+        "id": "guojia",
+        "name": "郭嘉",
+        "type": "character",
+        "description": "字奉孝，曹操首席谋士。算无遗策，遗计定辽东，英年早逝，曹操痛惜不已。",
+        "faction": "曹魏"
+      },
+      {
+        "id": "simawei",
+        "name": "司马懿",
+        "type": "character",
+        "description": "字仲达，曹魏重臣。隐忍多谋，与诸葛亮对峙多年，最终为司马家族篡魏奠基。",
+        "faction": "曹魏"
+      },
+      {
+        "id": "caopi",
+        "name": "曹丕",
+        "type": "character",
+        "description": "字子桓，曹操之子，曹魏开国皇帝。篡汉建魏，在位七年。逼曹植七步成诗。",
+        "faction": "曹魏"
+      },
+      {
+        "id": "caozhi",
+        "name": "曹植",
+        "type": "character",
+        "description": "字子建，曹操之子，建安文学代表。七步成诗，才高八斗，被曹丕猜忌打压。",
+        "faction": "曹魏"
+      },
+      {
+        "id": "zhangliao",
+        "name": "张辽",
+        "type": "character",
+        "description": "字文远，原属吕布，后归曹操。逍遥津八百破十万，威震逍遥津，东吴小儿夜啼。",
+        "faction": "曹魏"
+      },
+      {
+        "id": "xuhuang",
+        "name": "徐晃",
+        "type": "character",
+        "description": "字公明，曹魏五子良将之一。樊城之战击败关羽，解曹仁之围。",
+        "faction": "曹魏"
+      },
+      {
+        "id": "zhanghe",
+        "name": "张郃",
+        "type": "character",
+        "description": "字儁乂，曹魏五子良将之一。原属袁绍，官渡之战后归曹操。木门道中伏身亡。",
+        "faction": "曹魏"
+      },
+      {
+        "id": "xunyu",
+        "name": "荀彧",
+        "type": "character",
+        "description": "字文若，曹操首席谋臣。王佐之才，迎奉天子，后因反对曹操称魏公而被迫自杀。",
+        "faction": "曹魏"
+      },
+      {
+        "id": "sima_zhao",
+        "name": "司马昭",
+        "type": "character",
+        "description": "字子上，司马懿之子。司马昭之心路人皆知，灭蜀汉，为西晋代魏奠基。",
+        "faction": "曹魏"
+      },
+      {
+        "id": "pangde",
+        "name": "庞德",
+        "type": "character",
+        "description": "字令明，原属马超，后归曹操。抬棺战关羽，被关羽水淹七军所擒，宁死不降。",
+        "faction": "曹魏"
+      },
+      {
+        "id": "sunquan",
+        "name": "孙权",
+        "type": "character",
+        "description": "字仲谋，东吴开国皇帝。继承父兄基业，赤壁之战联刘抗曹，坐断东南。",
+        "faction": "东吴"
+      },
+      {
+        "id": "sunjian",
+        "name": "孙坚",
+        "type": "character",
+        "description": "字文台，东吴基业奠基人。江东猛虎，讨董先锋，得传国玉玺，在襄阳被刘表部将黄祖伏击身亡。",
+        "faction": "东吴"
+      },
+      {
+        "id": "sunce",
+        "name": "孙策",
+        "type": "character",
+        "description": "字伯符，孙坚之子，孙权之兄。小霸王，以玉玺借兵平定江东六郡，打猎时遇刺身亡。",
+        "faction": "东吴"
+      },
+      {
+        "id": "zhouyu",
+        "name": "周瑜",
+        "type": "character",
+        "description": "字公瑾，东吴大都督。赤壁之战火烧曹营，英姿勃发，与诸葛亮亦敌亦友，被气死。",
+        "faction": "东吴"
+      },
+      {
+        "id": "lusu",
+        "name": "鲁肃",
+        "type": "character",
+        "description": "字子敬，东吴谋士。主张联刘抗曹，促成孙刘联盟，为人忠厚老实。",
+        "faction": "东吴"
+      },
+      {
+        "id": "lvmeng",
+        "name": "吕蒙",
+        "type": "character",
+        "description": "字子明，东吴大将。士别三日当刮目相待，白衣渡江奇袭荆州，擒杀关羽。",
+        "faction": "东吴"
+      },
+      {
+        "id": "luxun",
+        "name": "陆逊",
+        "type": "character",
+        "description": "字伯言，东吴大都督。夷陵之战火烧连营七百里，大败刘备，为东吴后期柱石。",
+        "faction": "东吴"
+      },
+      {
+        "id": "huanggai",
+        "name": "黄盖",
+        "type": "character",
+        "description": "字公覆，东吴老将。赤壁之战苦肉计诈降曹操，为火攻创造条件。",
+        "faction": "东吴"
+      },
+      {
+        "id": "ganning",
+        "name": "甘宁",
+        "type": "character",
+        "description": "字兴霸，东吴猛将。原为黄巾贼后水贼，百骑劫魏营，不折一人一骑。",
+        "faction": "东吴"
+      },
+      {
+        "id": "taishici",
+        "name": "太史慈",
+        "type": "character",
+        "description": "字子义，东吴猛将。神亭岭与孙策酣战，后归降孙策，弓马娴熟，英年早逝。",
+        "faction": "东吴"
+      },
+      {
+        "id": "zhugejin",
+        "name": "诸葛瑾",
+        "type": "character",
+        "description": "字子瑜，诸葛亮之兄，东吴重臣。为人忠厚，孙权信任有加。",
+        "faction": "东吴"
+      },
+      {
+        "id": "daqiao",
+        "name": "大乔",
+        "type": "character",
+        "description": "江东二乔之一，孙策之妻，国色天香。",
+        "faction": "东吴"
+      },
+      {
+        "id": "xiaoqiao",
+        "name": "小乔",
+        "type": "character",
+        "description": "江东二乔之一，周瑜之妻，国色天香。诸葛亮以铜雀台赋激周瑜。",
+        "faction": "东吴"
+      },
+      {
+        "id": "handang",
+        "name": "韩当",
+        "type": "character",
+        "description": "字义公，东吴老将。跟随孙坚、孙策、孙权三代，弓马娴熟，赤壁之战有功。",
+        "faction": "东吴"
+      },
+      {
+        "id": "lvbu",
+        "name": "吕布",
+        "type": "character",
+        "description": "字奉先，三国第一猛将。辕门射戟，虎牢关战三英。反复无常，先后杀丁原、董卓，被曹操所擒杀。",
+        "faction": "群雄"
+      },
+      {
+        "id": "dongzhuo",
+        "name": "董卓",
+        "type": "character",
+        "description": "字仲颖，东汉末年权臣。废少帝立献帝，迁都长安，暴虐无道，被吕布所杀。",
+        "faction": "群雄"
+      },
+      {
+        "id": "yuanshao",
+        "name": "袁绍",
+        "type": "character",
+        "description": "字本初，四世三公。官渡之战被曹操击败，好谋无断，最终兵败病亡。",
+        "faction": "群雄"
+      },
+      {
+        "id": "yuanshu",
+        "name": "袁术",
+        "type": "character",
+        "description": "字公路，袁绍之弟。得传国玉玺后称帝，荒淫无道，众叛亲离，呕血而亡。",
+        "faction": "群雄"
+      },
+      {
+        "id": "diaochan",
+        "name": "貂蝉",
+        "type": "character",
+        "description": "中国古代四大美女之一。王允养女，连环计离间董卓与吕布，使吕布杀董卓。",
+        "faction": "群雄"
+      },
+      {
+        "id": "huaxiong",
+        "name": "华雄",
+        "type": "character",
+        "description": "董卓麾下猛将。汜水关连斩数将，被关羽温酒斩之。",
+        "faction": "群雄"
+      },
+      {
+        "id": "yanliang",
+        "name": "颜良",
+        "type": "character",
+        "description": "袁绍麾下大将，与文丑齐名。白马之战被关羽万军中斩首。",
+        "faction": "群雄"
+      },
+      {
+        "id": "wenchou",
+        "name": "文丑",
+        "type": "character",
+        "description": "袁绍麾下大将，与颜良齐名。延津之战被关羽斩杀。",
+        "faction": "群雄"
+      },
+      {
+        "id": "hanxuan",
+        "name": "韩玄",
+        "type": "character",
+        "description": "长沙太守。黄忠的主公，因怀疑黄忠通敌欲杀之，被魏延所杀。",
+        "faction": "群雄"
+      },
+      {
+        "id": "liubiao",
+        "name": "刘表",
+        "type": "character",
+        "description": "字景升，荆州牧。汉室宗亲，坐镇荆州。黄忠最初是其部下。病死后荆州归刘琮，降曹操。",
+        "faction": "群雄"
+      },
+      {
+        "id": "dingyuan",
+        "name": "丁原",
+        "type": "character",
+        "description": "字建阳，并州刺史。吕布的义父，被董卓以赤兔马收买吕布后所杀。",
+        "faction": "群雄"
+      },
+      {
+        "id": "gongsun_zan",
+        "name": "公孙瓒",
+        "type": "character",
+        "description": "字伯珪，白马将军。赵云最初的主公，与袁绍争河北，最终兵败自焚。",
+        "faction": "群雄"
+      }
+    ],
+    "factions": [
+      {
+        "id": "shuhan",
+        "name": "蜀汉",
+        "type": "faction",
+        "description": "由刘备建立的政权，以益州为根据地，以汉室正统自居，五虎上将威震天下。"
+      },
+      {
+        "id": "caowei",
+        "name": "曹魏",
+        "type": "faction",
+        "description": "由曹操奠基的政权，占据北方中原，实力最强，后为司马氏所篡。"
+      },
+      {
+        "id": "dongwu",
+        "name": "东吴",
+        "type": "faction",
+        "description": "由孙权建立的政权，据有江东六郡八十一州，以水军著称。"
+      },
+      {
+        "id": "qunxiong",
+        "name": "群雄",
+        "type": "faction",
+        "description": "东汉末年各地方割据势力，包括吕布、董卓、袁绍等未形成三国的人物。"
+      }
+    ],
+    "events": [
+      {
+        "id": "taoyuanjieyi",
+        "name": "桃园结义",
+        "type": "event",
+        "description": "刘备、关羽、张飞在桃园结为异姓兄弟，誓同生死。"
+      },
+      {
+        "id": "sangumaolu",
+        "name": "三顾茅庐",
+        "type": "event",
+        "description": "刘备三次亲赴隆中草庐，请诸葛亮出山辅佐，诸葛亮献隆中对。"
+      },
+      {
+        "id": "chibizhizhan",
+        "name": "赤壁之战",
+        "type": "event",
+        "description": "孙刘联军在赤壁以火攻大破曹操百万大军，奠定三国鼎立基础。"
+      },
+      {
+        "id": "guanduzhizhan",
+        "name": "官渡之战",
+        "type": "event",
+        "description": "曹操以少胜多击败袁绍，统一北方。"
+      },
+      {
+        "id": "yilingzhizhan",
+        "name": "夷陵之战",
+        "type": "event",
+        "description": "刘备为关羽报仇伐吴，陆逊火烧连营七百里，刘备大败，白帝城托孤。"
+      },
+      {
+        "id": "changbanpo",
+        "name": "长坂坡之战",
+        "type": "event",
+        "description": "赵云在长坂坡七进七出救出阿斗，张飞断桥喝退曹军。"
+      },
+      {
+        "id": "liuchuqishan",
+        "name": "六出祁山",
+        "type": "event",
+        "description": "诸葛亮六次北伐中原，与司马懿对峙，最终病逝五丈原。"
+      },
+      {
+        "id": "wenjiuhuaxiong",
+        "name": "温酒斩华雄",
+        "type": "event",
+        "description": "关羽在汜水关温酒之间斩杀董卓猛将华雄，一战成名。"
+      },
+      {
+        "id": "sanyingzhanlvbu",
+        "name": "三英战吕布",
+        "type": "event",
+        "description": "虎牢关前刘备、关羽、张飞三兄弟合战吕布，吕布不敌而退。"
+      },
+      {
+        "id": "guowuquanshaliu",
+        "name": "过五关斩六将",
+        "type": "event",
+        "description": "关羽离开曹操护送嫂嫂寻兄，连过五关斩六将，千里走单骑。"
+      },
+      {
+        "id": "caochuanjiejian",
+        "name": "草船借箭",
+        "type": "event",
+        "description": "诸葛亮利用大雾以草船诱曹军放箭，一夜得十万支箭，周瑜惊叹。"
+      },
+      {
+        "id": "kongchengji",
+        "name": "空城计",
+        "type": "event",
+        "description": "马谡失街亭后，司马懿大军逼近，诸葛亮城中无兵，大开城门抚琴，司马懿疑有伏兵退走。"
+      },
+      {
+        "id": "huileizhanmasu",
+        "name": "挥泪斩马谡",
+        "type": "event",
+        "description": "马谡失街亭导致北伐失败，诸葛亮为正军纪挥泪将其斩首。"
+      },
+      {
+        "id": "baidichengtuogu",
+        "name": "白帝城托孤",
+        "type": "event",
+        "description": "夷陵之战后刘备病重，在白帝城将刘禅托付诸葛亮，令其可取而代之。"
+      },
+      {
+        "id": "qiqinmenghuo",
+        "name": "七擒孟获",
+        "type": "event",
+        "description": "诸葛亮南征，七次擒放孟获，使其心服，稳固南方。"
+      },
+      {
+        "id": "lianhuangji",
+        "name": "连环计",
+        "type": "event",
+        "description": "王允以貂蝉为饵，使董卓与吕布反目，吕布杀董卓。"
+      },
+      {
+        "id": "zhujiulunyingxiong",
+        "name": "煮酒论英雄",
+        "type": "event",
+        "description": "曹操邀刘备煮酒论天下英雄，称天下英雄唯使君与操耳，刘备惊落筷子。"
+      },
+      {
+        "id": "zhangshaizhan",
+        "name": "战长沙",
+        "type": "event",
+        "description": "关羽攻打长沙，与黄忠大战。韩玄疑黄忠通敌欲杀之，魏延杀韩玄，与黄忠一同归降刘备。"
+      },
+      {
+        "id": "dingjunshan",
+        "name": "定军山之战",
+        "type": "event",
+        "description": "法正献计，黄忠在定军山斩杀夏侯渊，为刘备取汉中关键一战。"
+      },
+      {
+        "id": "xiaoyaojin",
+        "name": "逍遥津之战",
+        "type": "event",
+        "description": "张辽率八百将士冲入十万吴军，直逼孙权旗下，威震逍遥津。"
+      },
+      {
+        "id": "wmaqishan",
+        "name": "九伐中原",
+        "type": "event",
+        "description": "姜维继承诸葛亮遗志，九次北伐中原，终因国力不支而失败。"
+      }
+    ]
+  },
+  "relationships": [
+    {
+      "source": "liubei",
+      "target": "guanyu",
+      "relation": "结义兄弟",
+      "detail": "桃园结义，刘备为大哥，关羽为二哥"
+    },
+    {
+      "source": "liubei",
+      "target": "zhangfei",
+      "relation": "结义兄弟",
+      "detail": "桃园结义，刘备为大哥，张飞为三弟"
+    },
+    {
+      "source": "liubei",
+      "target": "zhugeliang",
+      "relation": "君臣",
+      "detail": "三顾茅庐请诸葛亮出山，临终白帝城托孤"
+    },
+    {
+      "source": "liubei",
+      "target": "zhaoyun",
+      "relation": "君臣",
+      "detail": "赵云追随刘备一生，忠心耿耿"
+    },
+    {
+      "source": "liubei",
+      "target": "pangtong",
+      "relation": "君臣",
+      "detail": "庞统为刘备军师中郎将，取西川时阵亡"
+    },
+    {
+      "source": "liubei",
+      "target": "fazheng",
+      "relation": "君臣",
+      "detail": "法正为刘备取西川首席谋士，深受器重"
+    },
+    {
+      "source": "liubei",
+      "target": "liushan",
+      "relation": "父子",
+      "detail": "刘禅为刘备之子，小名阿斗"
+    },
+    {
+      "source": "liubei",
+      "target": "sunquan",
+      "relation": "盟友",
+      "detail": "赤壁之战孙刘联盟抗曹"
+    },
+    {
+      "source": "liubei",
+      "target": "luxun",
+      "relation": "敌对",
+      "detail": "夷陵之战陆逊大败刘备"
+    },
+    {
+      "source": "liubei",
+      "target": "shuhan",
+      "relation": "所属",
+      "detail": "刘备是蜀汉开国皇帝"
+    },
+    {
+      "source": "liubei",
+      "target": "yilingzhizhan",
+      "relation": "参与",
+      "detail": "夷陵之战刘备为关羽报仇伐吴，大败"
+    },
+    {
+      "source": "liubei",
+      "target": "taoyuanjieyi",
+      "relation": "参与",
+      "detail": "桃园结义三兄弟"
+    },
+    {
+      "source": "liubei",
+      "target": "sangumaolu",
+      "relation": "主导",
+      "detail": "三顾茅庐请诸葛亮"
+    },
+    {
+      "source": "liubei",
+      "target": "sanyingzhanlvbu",
+      "relation": "参与",
+      "detail": "三英战吕布"
+    },
+    {
+      "source": "liubei",
+      "target": "baidichengtuogu",
+      "relation": "主导",
+      "detail": "刘备白帝城托孤诸葛亮"
+    },
+    {
+      "source": "liubei",
+      "target": "zhujiulunyingxiong",
+      "relation": "参与",
+      "detail": "刘备参与煮酒论英雄，惊落筷子"
+    },
+    {
+      "source": "guanyu",
+      "target": "zhangfei",
+      "relation": "结义兄弟",
+      "detail": "桃园结义，关羽为二哥，张飞为三弟"
+    },
+    {
+      "source": "guanyu",
+      "target": "yanliang",
+      "relation": "斩杀",
+      "detail": "白马之战关羽万军中斩颜良"
+    },
+    {
+      "source": "guanyu",
+      "target": "wenchou",
+      "relation": "斩杀",
+      "detail": "延津之战关羽斩文丑"
+    },
+    {
+      "source": "guanyu",
+      "target": "huaxiong",
+      "relation": "斩杀",
+      "detail": "汜水关温酒斩华雄"
+    },
+    {
+      "source": "guanyu",
+      "target": "lvmeng",
+      "relation": "敌对",
+      "detail": "吕蒙白衣渡江夺取荆州，关羽被擒杀"
+    },
+    {
+      "source": "guanyu",
+      "target": "xuhuang",
+      "relation": "被击败",
+      "detail": "樊城之战徐晃击败关羽"
+    },
+    {
+      "source": "guanyu",
+      "target": "wenjiuhuaxiong",
+      "relation": "主导",
+      "detail": "关羽温酒斩华雄"
+    },
+    {
+      "source": "guanyu",
+      "target": "sanyingzhanlvbu",
+      "relation": "参与",
+      "detail": "三英战吕布"
+    },
+    {
+      "source": "guanyu",
+      "target": "guowuquanshaliu",
+      "relation": "主导",
+      "detail": "关羽过五关斩六将千里走单骑"
+    },
+    {
+      "source": "guanyu",
+      "target": "zhangshaizhan",
+      "relation": "参与",
+      "detail": "关羽战长沙"
+    },
+    {
+      "source": "zhangfei",
+      "target": "yanngyan",
+      "relation": "义释",
+      "detail": "张飞攻巴郡擒严颜后义释之，严颜归降"
+    },
+    {
+      "source": "zhangfei",
+      "target": "changbanpo",
+      "relation": "参与",
+      "detail": "长坂坡断桥喝退曹军"
+    },
+    {
+      "source": "zhangfei",
+      "target": "sanyingzhanlvbu",
+      "relation": "参与",
+      "detail": "三英战吕布"
+    },
+    {
+      "source": "zhugeliang",
+      "target": "zhaoyun",
+      "relation": "同僚",
+      "detail": "诸葛亮北伐时赵云为先锋"
+    },
+    {
+      "source": "zhugeliang",
+      "target": "machao",
+      "relation": "同僚",
+      "detail": "马超归降刘备后与诸葛亮共事"
+    },
+    {
+      "source": "zhugeliang",
+      "target": "pangtong",
+      "relation": "齐名",
+      "detail": "卧龙凤雏，得一可安天下"
+    },
+    {
+      "source": "zhugeliang",
+      "target": "jiangwei",
+      "relation": "师徒",
+      "detail": "诸葛亮收姜维为徒，传授兵法，托付北伐遗志"
+    },
+    {
+      "source": "zhugeliang",
+      "target": "masu",
+      "relation": "斩杀",
+      "detail": "失街亭导致北伐失败，诸葛亮挥泪斩马谡"
+    },
+    {
+      "source": "zhugeliang",
+      "target": "weiyan",
+      "relation": "不信任",
+      "detail": "诸葛亮认为魏延有反骨，临终遗计防之"
+    },
+    {
+      "source": "zhugeliang",
+      "target": "xushu",
+      "relation": "友人",
+      "detail": "徐庶走马荐诸葛，二人交情深厚"
+    },
+    {
+      "source": "zhugeliang",
+      "target": "simawei",
+      "relation": "死敌",
+      "detail": "诸葛亮北伐与司马懿对峙多年，棋逢对手"
+    },
+    {
+      "source": "zhugeliang",
+      "target": "liuchuqishan",
+      "relation": "主导",
+      "detail": "诸葛亮六出祁山北伐中原"
+    },
+    {
+      "source": "zhugeliang",
+      "target": "chibizhizhan",
+      "relation": "参与",
+      "detail": "赤壁之战中借东风，与周瑜联手火攻"
+    },
+    {
+      "source": "zhugeliang",
+      "target": "caochuanjiejian",
+      "relation": "主导",
+      "detail": "诸葛亮草船借箭"
+    },
+    {
+      "source": "zhugeliang",
+      "target": "kongchengji",
+      "relation": "主导",
+      "detail": "诸葛亮空城计退司马懿"
+    },
+    {
+      "source": "zhugeliang",
+      "target": "huileizhanmasu",
+      "relation": "主导",
+      "detail": "诸葛亮挥泪斩马谡"
+    },
+    {
+      "source": "zhugeliang",
+      "target": "baidichengtuogu",
+      "relation": "受托",
+      "detail": "受刘备托孤之重"
+    },
+    {
+      "source": "zhugeliang",
+      "target": "qiqinmenghuo",
+      "relation": "主导",
+      "detail": "诸葛亮七擒孟获"
+    },
+    {
+      "source": "zhaoyun",
+      "target": "changbanpo",
+      "relation": "参与",
+      "detail": "长坂坡七进七出救阿斗"
+    },
+    {
+      "source": "machao",
+      "target": "pangde",
+      "relation": "原为主从",
+      "detail": "庞德原为马超部将，后因病留在汉中归降曹操"
+    },
+    {
+      "source": "machao",
+      "target": "caocao",
+      "relation": "仇敌",
+      "detail": "马超为报父仇起兵反曹，杀得曹操割须弃袍"
+    },
+    {
+      "source": "huangzhong",
+      "target": "liubiao",
+      "relation": "原属",
+      "detail": "黄忠最初为刘表部下，驻守长沙"
+    },
+    {
+      "source": "huangzhong",
+      "target": "hanxuan",
+      "relation": "原属",
+      "detail": "刘表死后，黄忠归属长沙太守韩玄"
+    },
+    {
+      "source": "huangzhong",
+      "target": "liubei",
+      "relation": "归降",
+      "detail": "关羽战长沙后，黄忠归降刘备，成为五虎上将"
+    },
+    {
+      "source": "huangzhong",
+      "target": "guanyu",
+      "relation": "曾为敌手",
+      "detail": "战长沙时关羽与黄忠大战，互相敬重"
+    },
+    {
+      "source": "huangzhong",
+      "target": "xiahouyuan",
+      "relation": "斩杀",
+      "detail": "定军山之战黄忠斩夏侯渊"
+    },
+    {
+      "source": "huangzhong",
+      "target": "zhangshaizhan",
+      "relation": "参与",
+      "detail": "黄忠守长沙与关羽大战"
+    },
+    {
+      "source": "huangzhong",
+      "target": "dingjunshan",
+      "relation": "主导",
+      "detail": "黄忠定军山斩夏侯渊"
+    },
+    {
+      "source": "jiangwei",
+      "target": "caocao",
+      "relation": "原属曹魏",
+      "detail": "姜维本为曹魏天水守将"
+    },
+    {
+      "source": "jiangwei",
+      "target": "zhugeliang",
+      "relation": "被收服",
+      "detail": "诸葛亮北伐时设计收服姜维，收为衣钵传人"
+    },
+    {
+      "source": "jiangwei",
+      "target": "wmaqishan",
+      "relation": "主导",
+      "detail": "姜维九伐中原继承诸葛亮遗志"
+    },
+    {
+      "source": "weiyan",
+      "target": "hanxuan",
+      "relation": "弑主",
+      "detail": "魏延杀韩玄，献长沙城于刘备"
+    },
+    {
+      "source": "weiyan",
+      "target": "liubei",
+      "relation": "归降",
+      "detail": "魏延杀韩玄后归降刘备，被诸葛亮警告有反骨"
+    },
+    {
+      "source": "weiyan",
+      "target": "madai",
+      "relation": "被杀",
+      "detail": "诸葛亮死后，马岱奉遗命斩魏延"
+    },
+    {
+      "source": "weiyan",
+      "target": "zhangshaizhan",
+      "relation": "参与",
+      "detail": "魏延杀韩玄献长沙"
+    },
+    {
+      "source": "masu",
+      "target": "huileizhanmasu",
+      "relation": "参与",
+      "detail": "马谡失街亭被斩"
+    },
+    {
+      "source": "xushu",
+      "target": "liubei",
+      "relation": "曾为谋士",
+      "detail": "徐庶为刘备早期谋士，后被曹操以母要挟离去"
+    },
+    {
+      "source": "xushu",
+      "target": "caocao",
+      "relation": "被迫归顺",
+      "detail": "曹操以徐庶之母为质，徐庶被迫归曹，终生不献一计"
+    },
+    {
+      "source": "fazheng",
+      "target": "huangzhong",
+      "relation": "献计配合",
+      "detail": "定军山之战法正献计，黄忠执行斩夏侯渊"
+    },
+    {
+      "source": "fazheng",
+      "target": "dingjunshan",
+      "relation": "献计",
+      "detail": "法正献计定军山之战"
+    },
+    {
+      "source": "yanngyan",
+      "target": "liubei",
+      "relation": "归降",
+      "detail": "被张飞义释后归降刘备"
+    },
+    {
+      "source": "caocao",
+      "target": "xiahoudun",
+      "relation": "族亲+君臣",
+      "detail": "夏侯惇是曹操的族兄弟，也是其最信任的大将"
+    },
+    {
+      "source": "caocao",
+      "target": "xiahouyuan",
+      "relation": "族亲+君臣",
+      "detail": "夏侯渊是夏侯惇族弟，曹操信任的宗族大将"
+    },
+    {
+      "source": "caocao",
+      "target": "xuchu",
+      "relation": "君臣",
+      "detail": "许褚为曹操贴身护卫，虎痴之名威震天下"
+    },
+    {
+      "source": "caocao",
+      "target": "dianwei",
+      "relation": "君臣",
+      "detail": "典韦为曹操贴身护卫，宛城之战力战而死"
+    },
+    {
+      "source": "caocao",
+      "target": "guojia",
+      "relation": "君臣",
+      "detail": "曹操最信任的谋士，英年早逝"
+    },
+    {
+      "source": "caocao",
+      "target": "simawei",
+      "relation": "君臣",
+      "detail": "曹操赏识司马懿之才，但也防备其野心"
+    },
+    {
+      "source": "caocao",
+      "target": "caopi",
+      "relation": "父子",
+      "detail": "曹丕为曹操之子，继承魏王之位后篡汉建魏"
+    },
+    {
+      "source": "caocao",
+      "target": "caozhi",
+      "relation": "父子",
+      "detail": "曹植为曹操之子，才高八斗但未能继位"
+    },
+    {
+      "source": "caocao",
+      "target": "zhangliao",
+      "relation": "君臣",
+      "detail": "张辽原属吕布，下邳之战后归降曹操"
+    },
+    {
+      "source": "caocao",
+      "target": "xuhuang",
+      "relation": "君臣",
+      "detail": "徐晃为曹魏五子良将之一，樊城解围"
+    },
+    {
+      "source": "caocao",
+      "target": "zhanghe",
+      "relation": "君臣",
+      "detail": "张郃官渡之战后归降曹操，五子良将之一"
+    },
+    {
+      "source": "caocao",
+      "target": "xunyu",
+      "relation": "君臣",
+      "detail": "荀彧为曹操首席谋臣，后因反对称魏公被逼死"
+    },
+    {
+      "source": "caocao",
+      "target": "pangde",
+      "relation": "君臣",
+      "detail": "庞德归降曹操后忠心耿耿，抬棺战关羽"
+    },
+    {
+      "source": "caocao",
+      "target": "liubei",
+      "relation": "敌对",
+      "detail": "曹操视刘备为心腹大患，煮酒论英雄"
+    },
+    {
+      "source": "caocao",
+      "target": "sunquan",
+      "relation": "敌对",
+      "detail": "赤壁之战曹操南下征讨东吴"
+    },
+    {
+      "source": "caocao",
+      "target": "yuanshao",
+      "relation": "敌对",
+      "detail": "官渡之战曹操击败袁绍统一北方"
+    },
+    {
+      "source": "caocao",
+      "target": "caowei",
+      "relation": "所属",
+      "detail": "曹操是曹魏奠基人"
+    },
+    {
+      "source": "caocao",
+      "target": "chibizhizhan",
+      "relation": "参与",
+      "detail": "赤壁之战曹操率百万大军南下，大败而归"
+    },
+    {
+      "source": "caocao",
+      "target": "guanduzhizhan",
+      "relation": "主导",
+      "detail": "官渡之战曹操以少胜多击败袁绍"
+    },
+    {
+      "source": "caocao",
+      "target": "zhujiulunyingxiong",
+      "relation": "参与",
+      "detail": "曹操煮酒论英雄"
+    },
+    {
+      "source": "xiahouyuan",
+      "target": "dingjunshan",
+      "relation": "参与",
+      "detail": "夏侯渊在定军山被斩"
+    },
+    {
+      "source": "simawei",
+      "target": "sima_zhao",
+      "relation": "父子",
+      "detail": "司马昭继承司马懿之权，司马昭之心路人皆知"
+    },
+    {
+      "source": "simawei",
+      "target": "kongchengji",
+      "relation": "参与",
+      "detail": "司马懿中空城计退兵"
+    },
+    {
+      "source": "caopi",
+      "target": "caozhi",
+      "relation": "兄弟相残",
+      "detail": "曹丕嫉妒曹植之才，逼其七步成诗，终生打压"
+    },
+    {
+      "source": "zhangliao",
+      "target": "lvbu",
+      "relation": "原属",
+      "detail": "张辽原为吕布部将，吕布败亡后归降曹操"
+    },
+    {
+      "source": "zhangliao",
+      "target": "xiaoyaojin",
+      "relation": "主导",
+      "detail": "张辽八百破十万，威震逍遥津"
+    },
+    {
+      "source": "zhanghe",
+      "target": "yuanshao",
+      "relation": "原属",
+      "detail": "张郃原为袁绍部将，官渡之战后归降曹操"
+    },
+    {
+      "source": "sima_zhao",
+      "target": "jiangwei",
+      "relation": "敌对",
+      "detail": "司马昭派邓艾钟会灭蜀，终结姜维北伐"
+    },
+    {
+      "source": "pangde",
+      "target": "guanyu",
+      "relation": "敌对",
+      "detail": "庞德抬棺战关羽，被水淹七军擒杀，宁死不降"
+    },
+    {
+      "source": "sunquan",
+      "target": "zhouyu",
+      "relation": "君臣",
+      "detail": "周瑜为东吴大都督，赤壁之战的总指挥"
+    },
+    {
+      "source": "sunquan",
+      "target": "lusu",
+      "relation": "君臣",
+      "detail": "鲁肃为孙权心腹谋士，主张联刘抗曹"
+    },
+    {
+      "source": "sunquan",
+      "target": "lvmeng",
+      "relation": "君臣",
+      "detail": "吕蒙白衣渡江夺取荆州"
+    },
+    {
+      "source": "sunquan",
+      "target": "luxun",
+      "relation": "君臣",
+      "detail": "陆逊夷陵之战火烧连营"
+    },
+    {
+      "source": "sunquan",
+      "target": "ganning",
+      "relation": "君臣",
+      "detail": "甘宁为东吴猛将，百骑劫魏营"
+    },
+    {
+      "source": "sunquan",
+      "target": "handang",
+      "relation": "君臣",
+      "detail": "韩当为东吴三代老将"
+    },
+    {
+      "source": "sunquan",
+      "target": "dongwu",
+      "relation": "所属",
+      "detail": "孙权是东吴开国皇帝"
+    },
+    {
+      "source": "sunquan",
+      "target": "xiaoyaojin",
+      "relation": "参与",
+      "detail": "孙权在逍遥津被张辽击败"
+    },
+    {
+      "source": "sunjian",
+      "target": "sunce",
+      "relation": "父子",
+      "detail": "孙坚为孙策之父，东吴基业第一代"
+    },
+    {
+      "source": "sunjian",
+      "target": "sunquan",
+      "relation": "父子",
+      "detail": "孙坚为孙权之父"
+    },
+    {
+      "source": "sunjian",
+      "target": "huanggai",
+      "relation": "三代老臣",
+      "detail": "黄盖跟随孙坚、孙策、孙权三代"
+    },
+    {
+      "source": "sunjian",
+      "target": "dongwu",
+      "relation": "奠基",
+      "detail": "孙坚为东吴基业奠基人"
+    },
+    {
+      "source": "sunce",
+      "target": "sunquan",
+      "relation": "兄弟",
+      "detail": "孙策临终将基业托付孙权，外事不决问周瑜，内事不决问张昭"
+    },
+    {
+      "source": "sunce",
+      "target": "zhouyu",
+      "relation": "知己+连襟",
+      "detail": "孙策与周瑜总角之交，分别娶大小乔"
+    },
+    {
+      "source": "sunce",
+      "target": "daqiao",
+      "relation": "夫妻",
+      "detail": "孙策攻皖城后娶大乔"
+    },
+    {
+      "source": "sunce",
+      "target": "taishici",
+      "relation": "惺惺相惜",
+      "detail": "神亭岭酣战后孙策收服太史慈"
+    },
+    {
+      "source": "sunce",
+      "target": "dongwu",
+      "relation": "奠基",
+      "detail": "孙策平定江东，为东吴立国奠基"
+    },
+    {
+      "source": "zhouyu",
+      "target": "xiaoqiao",
+      "relation": "夫妻",
+      "detail": "周瑜娶小乔，与孙策成为连襟"
+    },
+    {
+      "source": "zhouyu",
+      "target": "lusu",
+      "relation": "接替",
+      "detail": "周瑜临终推荐鲁肃接任大都督"
+    },
+    {
+      "source": "zhouyu",
+      "target": "zhugeliang",
+      "relation": "亦敌亦友",
+      "detail": "赤壁之战合作，但周瑜嫉妒诸葛亮的才华，被气死"
+    },
+    {
+      "source": "zhouyu",
+      "target": "chibizhizhan",
+      "relation": "主导",
+      "detail": "周瑜为赤壁之战东吴总指挥"
+    },
+    {
+      "source": "zhouyu",
+      "target": "caochuanjiejian",
+      "relation": "惊叹",
+      "detail": "周瑜见草船借箭后自叹不如"
+    },
+    {
+      "source": "lusu",
+      "target": "lvmeng",
+      "relation": "接替",
+      "detail": "鲁肃去世后吕蒙接任"
+    },
+    {
+      "source": "lusu",
+      "target": "chibizhizhan",
+      "relation": "促成",
+      "detail": "鲁肃促成孙刘联盟抗曹"
+    },
+    {
+      "source": "lvmeng",
+      "target": "luxun",
+      "relation": "接替",
+      "detail": "吕蒙之后陆逊成为东吴柱石"
+    },
+    {
+      "source": "lvmeng",
+      "target": "guanyu",
+      "relation": "擒杀",
+      "detail": "吕蒙白衣渡江奇袭荆州，擒杀关羽"
+    },
+    {
+      "source": "luxun",
+      "target": "yilingzhizhan",
+      "relation": "主导",
+      "detail": "夷陵之战陆逊火烧连营"
+    },
+    {
+      "source": "huanggai",
+      "target": "caocao",
+      "relation": "诈降",
+      "detail": "赤壁之战黄盖苦肉计诈降曹操"
+    },
+    {
+      "source": "huanggai",
+      "target": "chibizhizhan",
+      "relation": "参与",
+      "detail": "黄盖苦肉计诈降，火攻曹营"
+    },
+    {
+      "source": "zhugejin",
+      "target": "zhugeliang",
+      "relation": "兄弟",
+      "detail": "诸葛瑾为诸葛亮之兄，分仕吴蜀"
+    },
+    {
+      "source": "lvbu",
+      "target": "dongzhuo",
+      "relation": "义父子→弑杀",
+      "detail": "吕布先认董卓为义父，后因貂蝉杀董卓"
+    },
+    {
+      "source": "lvbu",
+      "target": "dingyuan",
+      "relation": "义父子→弑杀",
+      "detail": "吕布原为丁原义子，被董卓以赤兔马收买后杀丁原"
+    },
+    {
+      "source": "lvbu",
+      "target": "diaochan",
+      "relation": "爱慕",
+      "detail": "吕布为貂蝉所迷，杀董卓"
+    },
+    {
+      "source": "lvbu",
+      "target": "liubei",
+      "relation": "恩怨",
+      "detail": "辕门射戟救刘备，后刘备劝曹操杀吕布"
+    },
+    {
+      "source": "lvbu",
+      "target": "caocao",
+      "relation": "敌对",
+      "detail": "吕布反复无常，终被曹操所擒杀"
+    },
+    {
+      "source": "lvbu",
+      "target": "zhangliao",
+      "relation": "主从",
+      "detail": "张辽原为吕布部将"
+    },
+    {
+      "source": "lvbu",
+      "target": "sanyingzhanlvbu",
+      "relation": "参与",
+      "detail": "吕布独战三英"
+    },
+    {
+      "source": "lvbu",
+      "target": "lianhuangji",
+      "relation": "参与",
+      "detail": "吕布中连环计杀董卓"
+    },
+    {
+      "source": "dongzhuo",
+      "target": "diaochan",
+      "relation": "占有",
+      "detail": "董卓纳貂蝉为妾，引发吕布不满"
+    },
+    {
+      "source": "dongzhuo",
+      "target": "huaxiong",
+      "relation": "君臣",
+      "detail": "华雄为董卓麾下猛将"
+    },
+    {
+      "source": "dongzhuo",
+      "target": "lvbu",
+      "relation": "收买",
+      "detail": "董卓以赤兔马收买吕布杀丁原"
+    },
+    {
+      "source": "dongzhuo",
+      "target": "lianhuangji",
+      "relation": "参与",
+      "detail": "董卓中连环计被杀"
+    },
+    {
+      "source": "yuanshao",
+      "target": "yuanshu",
+      "relation": "兄弟",
+      "detail": "袁绍与袁术为兄弟，但互相不睦"
+    },
+    {
+      "source": "yuanshao",
+      "target": "yanliang",
+      "relation": "君臣",
+      "detail": "颜良为袁绍麾下大将"
+    },
+    {
+      "source": "yuanshao",
+      "target": "wenchou",
+      "relation": "君臣",
+      "detail": "文丑为袁绍麾下大将"
+    },
+    {
+      "source": "yuanshao",
+      "target": "zhanghe",
+      "relation": "原属",
+      "detail": "张郃原为袁绍部将，官渡降曹"
+    },
+    {
+      "source": "yuanshao",
+      "target": "guanduzhizhan",
+      "relation": "参与",
+      "detail": "官渡之战袁绍兵败"
+    },
+    {
+      "source": "diaochan",
+      "target": "lianhuangji",
+      "relation": "参与",
+      "detail": "貂蝉配合王允连环计"
+    },
+    {
+      "source": "huaxiong",
+      "target": "wenjiuhuaxiong",
+      "relation": "参与",
+      "detail": "华雄被关羽斩杀"
+    },
+    {
+      "source": "hanxuan",
+      "target": "zhangshaizhan",
+      "relation": "参与",
+      "detail": "韩玄在战长沙中被魏延所杀"
+    },
+    {
+      "source": "liubiao",
+      "target": "huangzhong",
+      "relation": "主从",
+      "detail": "黄忠最初为刘表部下，驻守长沙"
+    },
+    {
+      "source": "liubiao",
+      "target": "liubei",
+      "relation": "同宗",
+      "detail": "刘表与刘备同为汉室宗亲，刘备曾投刘表"
+    },
+    {
+      "source": "gongsun_zan",
+      "target": "zhaoyun",
+      "relation": "原属",
+      "detail": "赵云最初投奔公孙瓒，后因公孙瓒不重用而离开"
+    },
+    {
+      "source": "gongsun_zan",
+      "target": "yuanshao",
+      "relation": "敌对",
+      "detail": "公孙瓒与袁绍争夺河北，最终兵败自焚"
+    }
+  ]
+}

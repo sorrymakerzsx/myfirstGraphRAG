@@ -1,0 +1,187 @@
+{
+  "description": "三国知识图谱RAG评估数据集",
+  "version": "1.0",
+  "metrics": {
+    "recall_k": "Top-K中是否包含正确实体",
+    "mrr": "平均倒数排名（第一个正确实体的位置倒数的平均值）",
+    "ndcg_k": "归一化折损累积增益（考虑位置加权）"
+  },
+  "test_cases": [
+    {
+      "id": 1,
+      "question": "黄忠最初是谁的部下",
+      "expected_entities": ["liubiao"],
+      "expected_answer": "刘表",
+      "category": "single_hop",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "魏延是怎么死的",
+      "expected_entities": ["madai"],
+      "expected_answer": "被马岱所杀",
+      "category": "single_hop",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "赵云最初追随谁",
+      "expected_entities": ["gongsun_zan"],
+      "expected_answer": "公孙瓒",
+      "category": "single_hop",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "question": "谁杀了董卓",
+      "expected_entities": ["lvbu"],
+      "expected_answer": "吕布",
+      "category": "single_hop",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "诸葛亮和司马懿是什么关系",
+      "expected_entities": ["zhugeliang", "simawei"],
+      "expected_answer": "死敌",
+      "category": "comparison",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "桃园结义的三兄弟是谁",
+      "expected_entities": ["liubei", "guanyu", "zhangfei"],
+      "expected_answer": "刘备、关羽、张飞",
+      "category": "description",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "赤壁之战有哪些人参与",
+      "expected_entities": ["zhugeliang", "zhouyu", "caocao", "sunquan", "huanggai"],
+      "expected_answer": "诸葛亮、周瑜、曹操、孙权、黄盖等",
+      "category": "description",
+      "difficulty": "medium"
+    },
+    {
+      "id": 8,
+      "question": "关羽是怎么死的",
+      "expected_entities": ["lvmeng"],
+      "expected_answer": "被吕蒙白衣渡江擒杀",
+      "category": "single_hop",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "关羽的敌人的主公是谁",
+      "expected_entities": ["caocao", "sunquan"],
+      "expected_answer": "曹操（庞德的主公）、孙权（吕蒙的主公）",
+      "category": "multi_hop",
+      "difficulty": "hard"
+    },
+    {
+      "id": 10,
+      "question": "卧龙和仲达是什么关系",
+      "expected_entities": ["zhugeliang", "simawei"],
+      "expected_answer": "死敌",
+      "category": "comparison",
+      "difficulty": "medium"
+    },
+    {
+      "id": 11,
+      "question": "马谡是怎么死的",
+      "expected_entities": ["zhugeliang"],
+      "expected_answer": "被诸葛亮挥泪斩首",
+      "category": "single_hop",
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "question": "定军山之战谁斩了夏侯渊",
+      "expected_entities": ["huangzhong"],
+      "expected_answer": "黄忠",
+      "category": "single_hop",
+      "difficulty": "easy"
+    },
+    {
+      "id": 13,
+      "question": "空城计是怎么回事",
+      "expected_entities": ["zhugeliang", "simawei"],
+      "expected_answer": "诸葛亮空城退司马懿",
+      "category": "description",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "question": "吕布杀了他的义父丁原",
+      "expected_entities": ["lvbu", "dingyuan"],
+      "expected_answer": "吕布被董卓收买后杀丁原",
+      "category": "description",
+      "difficulty": "easy"
+    },
+    {
+      "id": 15,
+      "question": "凤雏是怎么死的",
+      "expected_entities": ["pangtong"],
+      "expected_answer": "在落凤坡中箭身亡",
+      "category": "single_hop",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "question": "曹操的首席谋士是谁",
+      "expected_entities": ["guojia", "xunyu"],
+      "expected_answer": "郭嘉、荀彧",
+      "category": "single_hop",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "庞德的主公是谁",
+      "expected_entities": ["caocao"],
+      "expected_answer": "曹操（原属马超，后归曹操）",
+      "category": "multi_hop",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "question": "姜维的师父是谁",
+      "expected_entities": ["zhugeliang"],
+      "expected_answer": "诸葛亮",
+      "category": "single_hop",
+      "difficulty": "easy"
+    },
+    {
+      "id": 19,
+      "question": "张辽原来是谁的部下",
+      "expected_entities": ["lvbu"],
+      "expected_answer": "吕布",
+      "category": "single_hop",
+      "difficulty": "medium"
+    },
+    {
+      "id": 20,
+      "question": "孙策和周瑜是什么关系",
+      "expected_entities": ["sunce", "zhouyu"],
+      "expected_answer": "挚友/连襟",
+      "category": "comparison",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "徐庶为什么离开刘备",
+      "expected_entities": ["xushu", "caocao"],
+      "expected_answer": "曹操以徐庶之母为质，徐庶被迫离开",
+      "category": "description",
+      "difficulty": "medium"
+    },
+    {
+      "id": 22,
+      "question": "曹操的儿子有哪些",
+      "expected_entities": ["caopi", "caozhi"],
+      "expected_answer": "曹丕、曹植",
+      "category": "single_hop",
+      "difficulty": "easy"
+    }
+  ]
+}

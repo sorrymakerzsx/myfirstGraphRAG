@@ -1,0 +1,22 @@
+# 核心依赖
+networkx>=3.0
+numpy>=1.20
+rank_bm25>=0.2.2
+sentence-transformers>=2.2.0
+huggingface_hub>=0.16.0
+scikit-learn>=1.0
+
+# 可视化
+rich>=13.0.0
+matplotlib>=3.5.0
+
+# Web API
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+
+# LLM 回答生成（可选，启用 LLM 模式时需要）
+openai>=1.0.0
+
+# Neo4j 图数据库（可选，kg_neo4j.py 使用）
+# neo4j>=5.0.0

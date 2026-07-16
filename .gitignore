@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 模型文件（体积大，首次运行自动下载）
+data/embedding_model/
+data/reranker_model/
+
+# 向量数据库缓存
+data/chroma_db/
+
+# 第三方依赖库（用 pip install 替代）
+libs/
+
+# 可视化生成产物
+data/kg_interactive.html
+*.png
+
+# 环境变量与密钥
+.env
+.env.local
+*.key
+
+# 日志
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
